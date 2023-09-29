@@ -48,7 +48,7 @@ public class Alarm {
         public void run() {
 
             System.out.println(Thread.currentThread().getName());
-            System.out.println("Alarm is ringing...ACORDA CRLH!!!!!");
+            System.out.println("Alarm is ringing...ACORDA!!!!!");
             numbRings--;
 
             if(numbRings == 0) {
